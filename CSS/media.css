@@ -1,0 +1,132 @@
+/* min-width */
+@media (min-width: 768px) {
+  .in-top {
+    font-size: 0.875rem;
+  }
+  /* FAQ */
+  .accordion-button {
+    font-size: 1.125rem;
+  }
+}
+@media (min-width: 992px) {
+  .in-top {
+    font-size: 0.875rem;
+  }
+  .hero-section h1 {
+    font-size: 3.3125rem;
+  }
+  .hero-section p {
+    max-width: 37.5rem;
+  }
+  /* right side */
+  .hero-section .right .image .p-top {
+    width: 5.3125rem;
+    height: 5.3125rem;
+  }
+  .hero-section .right .image .p-bottom {
+    width: 4.375rem;
+    height: 4.375rem;
+  }
+  /* clients */
+  /* card-middle */
+  .clients .cards .card-middle {
+    font-size: 1.25rem;
+  }
+  /* form section */
+  .contact .right-side {
+    width: 35%;
+    border-radius: 0 1.5rem 1.5rem 0;
+  }
+  .contact .left-side {
+    width: 65%;
+    border-radius: 1.5rem 0 0 1.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  header nav .buttons-perant .btn1-style {
+    transition: color 0.3 ease;
+    border: 0;
+  }
+  header .ul-style .dropdown h3 {
+    color: #db520e;
+    font-size: 1rem;
+  }
+  /*  */
+  .dropdown-style h3 {
+    font-size: 0.875rem;
+    letter-spacing: 0.0625rem;
+  }
+  /* hero-section */
+  .hero-section h1 {
+    font-size: 3.75rem;
+  }
+  .hero-section .in-bottom div .span1 {
+    font-size: 1.875rem;
+  }
+  .hero-section .in-bottom div .span2 {
+    font-size: 1rem;
+  }
+  /* text of section */
+  .technology h2,
+  .technology-Stack h2,
+  .technology-Stack h2,
+  .clients h2,
+  .faq h2,
+  .contact h2 {
+    font-size: 3rem;
+  }
+  .technology p,
+  .technology-Stack p,
+  .technology-Stack p,
+  .clients p,
+  .faq p,
+  .contact p {
+    max-width: 46.875rem;
+    font-size: 1.25rem;
+  }
+  /* contact us */
+  .contact h2 {
+    font-size: 4.5rem;
+    line-height: 5rem;
+  }
+  .contact p {
+    max-width: 53.125rem;
+    font-size: 1.5rem;
+  }
+
+  /* fotter */
+  footer .container {
+    max-width: 77.5rem;
+    margin: auto;
+  }
+  footer .logo > div {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  footer .icons span {
+    padding: 0.625rem;
+  }
+}
+/* max-width */
+@media (max-width: 992px) {
+  header .ul-style {
+    border-top: 1px solid #1e293942;
+  }
+  header nav a.active::after {
+    width: fit-content;
+  }
+  header nav .dropdown .dropdown-menu {
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-height: 70vh;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #d1d5db #f3f4f6;
+    -webkit-overflow-scrolling: touch;
+    background: #fff;
+    padding: 1.5rem;
+    box-shadow: 0 0.375rem 1.5rem rgba(0, 0, 0, 0.527);
+    z-index: 100;
+  }
+}
